@@ -67,8 +67,6 @@ class VentanaHuellitas(tk.Tk):
         ttk.Button(lateral, text="Cargar ejemplo", style="Accion.TButton",
                    command=self.cargar_ejemplo).pack(fill="x", pady=(16, 7))
         ttk.Button(lateral, text="Limpiar mapa", command=self.limpiar).pack(fill="x")
-        tk.Label(lateral, text="Los datos se mantienen solo\ndurante esta sesión.", bg="white",
-                 fg="#81908a", justify="left", font=("Segoe UI", 8)).pack(side="bottom", anchor="w")
 
         panel = tk.Frame(contenido, bg="#f4f6f3")
         panel.pack(side="left", fill="both")
@@ -121,7 +119,7 @@ class VentanaHuellitas(tk.Tk):
         )
         for categoria, descripcion, x, y in ejemplos:
             self.servicio.registrar(categoria, descripcion, Punto(x, y))
-        self.estado.set("Ejemplo ficticio cargado. Haz clic en el mapa para agregar puntos.")
+        self.estado.set("Ejemplo cargado. Haz clic en el mapa para agregar puntos.")
         self._actualizar_vista()
 
     def limpiar(self) -> None:
