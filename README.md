@@ -1,4 +1,4 @@
-# Huellitas 🐾
+# Proyecto Huellitas 🐾
 
 Huellitas es un proyecto en Python que usa un **QuadTree** para organizar información sobre mascotas perdidas en un mapa simulado.
 
@@ -16,7 +16,7 @@ Los datos de ejemplo son ficticios y se mantienen mientras el programa está abi
 
 Se necesita Python 3.10 o una versión posterior, Tkinter y un entorno gráfico. El programa usa la biblioteca estándar de Python.
 
-1. Descarga o clona el repositorio y abre una terminal en la carpeta `huellitas`.
+1. Descarga o clona el repositorio y abre una terminal en la carpeta del proyecto.
 2. Ejecuta el siguiente comando:
 
    ```powershell
@@ -25,7 +25,7 @@ Se necesita Python 3.10 o una versión posterior, Tkinter y un entorno gráfico.
 
 3. Elige una categoría, escribe una descripción y haz clic en el mapa. También puedes cargar un ejemplo para probar el programa.
 
-Si la ventana no abre, comprueba que Tkinter esté disponible con `python -m tkinter`.
+Si la ventana no abre, puedes usar `python -m tkinter` para ver si Tkinter está disponible.
 
 ## Pruebas
 
@@ -41,7 +41,7 @@ Las pruebas revisan la inserción de puntos, las divisiones, los límites del ma
 ## Estructura del proyecto
 
 ```text
-huellitas/
+proyecto-huellitas/
 ├── src/huellitas/   # Aplicación y QuadTree
 ├── tests/           # Pruebas
 ├── docs/            # Alcance, estructura y plan

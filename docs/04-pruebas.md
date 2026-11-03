@@ -15,8 +15,8 @@ python -m unittest discover -s tests -v
 - Que se puedan agregar varios puntos en la misma ubicación.
 - Que el programa rechace datos inválidos y que el reinicio limpie los registros.
 
-También se revisaron en la ventana la inserción con clic, el ejemplo, la opción para ocultar las divisiones y la limpieza del mapa.
+En la ventana también probé agregar puntos con clic, cargar el ejemplo, ocultar las divisiones y limpiar el mapa.
 
 ## Pruebas pendientes
 
-Cuando se implemente la búsqueda por zona, se comprobará que encuentre los puntos correctos, que no repita resultados y que funcione con zonas vacías o que estén en los bordes del mapa.
+Cuando agregue la búsqueda por zona, probaré que encuentre los puntos correctos, no repita resultados y funcione con zonas vacías o situadas en los bordes del mapa.

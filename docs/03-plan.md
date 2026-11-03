@@ -8,7 +8,7 @@ Está terminada la primera versión del QuadTree y la ventana para agregar punto
 
 - Permitir que el usuario seleccione una zona rectangular en el mapa.
 - Buscar los puntos que estén dentro de esa zona.
-- Mostrar los resultados y comprobarlos con pruebas.
+- Mostrar los resultados y probar que sean correctos.
 
 ## Etapa 3: mejoras y revisión
 
