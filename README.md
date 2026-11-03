@@ -12,27 +12,29 @@ El programa ya permite agregar puntos, ver las divisiones del árbol, cargar un 
 
 Los datos de ejemplo son ficticios y se mantienen mientras el programa está abierto. Las opciones **Cargar ejemplo** y **Limpiar mapa** reemplazan los puntos de la sesión.
 
-## Ejecutar el proyecto
+## Usar el proyecto en Visual Studio Code
 
 Se necesita Python 3.10 o una versión posterior, Tkinter y un entorno gráfico. El programa usa la biblioteca estándar de Python.
 
-1. Descarga o clona el repositorio y abre una terminal en la carpeta del proyecto.
-2. Ejecuta el siguiente comando:
+1. Abre Visual Studio Code y elige **Archivo → Abrir carpeta**, luego selecciona la carpeta del proyecto.
+2. Instala las extensiones recomendadas de Python y Python Debugger si Visual Studio Code te lo solicita.
+3. Abre la paleta de comandos con `Ctrl+Shift+P`, busca **Python: Select Interpreter** y selecciona Python 3.10 o posterior.
+4. Presiona `F5` y elige **Ejecutar Huellitas** si aparece la lista de configuraciones.
+5. En la ventana, elige una categoría, escribe una descripción y haz clic en el mapa. También puedes cargar un ejemplo para probar el programa.
 
-   ```powershell
-   python -m src.huellitas
-   ```
+También puedes abrir la terminal de Visual Studio Code y ejecutar:
 
-3. Elige una categoría, escribe una descripción y haz clic en el mapa. También puedes cargar un ejemplo para probar el programa.
+```powershell
+python -m src.huellitas
+```
 
 Si la ventana no abre, puedes usar `python -m tkinter` para ver si Tkinter está disponible.
 
 ## Pruebas
 
-Desde PowerShell, en la carpeta del proyecto:
+En Visual Studio Code, abre la sección **Pruebas** y ejecuta las pruebas que aparecen en la lista. También puedes usar la terminal desde la carpeta del proyecto:
 
 ```powershell
-$env:PYTHONPATH = "src"
 python -m unittest discover -s tests -v
 ```
 
@@ -44,6 +46,7 @@ Las pruebas revisan la inserción de puntos, las divisiones, los límites del ma
 proyecto-huellitas/
 ├── src/huellitas/   # Aplicación y QuadTree
 ├── tests/           # Pruebas
+├── .vscode/         # Ejecución y pruebas en Visual Studio Code
 ├── docs/            # Alcance, estructura y plan
 ├── evidencias/      # Capturas del programa y del código
 └── informes/        # Informes del proyecto

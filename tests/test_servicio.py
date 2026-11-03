@@ -1,7 +1,7 @@
 import unittest
 
-from huellitas.modelo import Categoria, Punto, Rectangulo
-from huellitas.servicio import ServicioHuellitas
+from src.huellitas.modelo import Categoria, Punto, Rectangulo
+from src.huellitas.servicio import ServicioHuellitas
 
 
 class PruebasServicio(unittest.TestCase):

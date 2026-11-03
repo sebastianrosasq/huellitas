@@ -1,7 +1,7 @@
 import unittest
 
-from huellitas.modelo import Categoria, Punto, Rectangulo, Registro
-from huellitas.quadtree import QuadTree
+from src.huellitas.modelo import Categoria, Punto, Rectangulo, Registro
+from src.huellitas.quadtree import QuadTree
 
 
 def registro(numero: int, x: float, y: float) -> Registro:

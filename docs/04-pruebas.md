@@ -1,9 +1,8 @@
 # Pruebas
 
-El primer avance tiene siete pruebas automatizadas. Para ejecutarlas en PowerShell, desde la carpeta del proyecto:
+El proyecto tiene siete pruebas automatizadas. En Visual Studio Code puedes abrir la sección **Pruebas** y ejecutarlas desde allí, o usar la terminal en la carpeta del proyecto:
 
 ```powershell
-$env:PYTHONPATH = "src"
 python -m unittest discover -s tests -v
 ```
 
