@@ -11,5 +11,12 @@
         "-p",
         "test_*.py"
     ],
-    "python.testing.cwd": "${workspaceFolder}"
+    "python.testing.cwd": "${workspaceFolder}",
+    "codesnap.backgroundColor": "#ffffff",
+    "codesnap.boxShadow": "none",
+    "codesnap.containerPadding": "1em",
+    "codesnap.showWindowControls": false,
+    "codesnap.showWindowTitle": true,
+    "codesnap.realLineNumbers": true,
+    "codesnap.shutterAction": "save"
 }
