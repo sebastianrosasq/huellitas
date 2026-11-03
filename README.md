@@ -54,4 +54,8 @@ proyecto-huellitas/
 
 En [docs](docs/01-alcance.md) se explica el alcance del proyecto y en [informes](informes/primer-avance-huellitas.pdf) se encuentra el informe presentado hasta ahora.
 
+## Capturas
+
+Las [capturas del proyecto](docs/05-informe.md) muestran las carpetas, las partes principales del QuadTree, las pruebas y el funcionamiento del mapa. Para los fragmentos de código uso CodeSnap desde Visual Studio Code, que también aparece entre las extensiones recomendadas.
+
 **Autor:** Pernel Sebastian Rosas Quispe.

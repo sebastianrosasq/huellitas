@@ -14,7 +14,19 @@ python -m unittest discover -s tests -v
 - Que se puedan agregar varios puntos en la misma ubicación.
 - Que el programa rechace datos inválidos y que el reinicio limpie los registros.
 
-En la ventana también probé agregar puntos con clic, cargar el ejemplo, ocultar las divisiones y limpiar el mapa.
+Las siete pruebas pasaron tanto desde la terminal como desde el panel de pruebas de Visual Studio Code, la [captura del resultado](../evidencias/06-vscode-pruebas.jpg) muestra el contador 7/7 y la salida con OK.
+
+## Pruebas en la interfaz
+
+| Acción | Resultado |
+| --- | --- |
+| Agregar cuatro registros desde el formulario y el mapa | Aparecen los cuatro puntos y la región sigue sin dividirse |
+| Agregar el quinto registro | Aparecen los cuatro cuadrantes y se conservan los cinco puntos |
+| Ocultar las divisiones | Las líneas desaparecen y los puntos se mantienen |
+| Cargar el ejemplo | El mapa muestra ocho registros de las tres categorías |
+| Limpiar el mapa | Desaparecen los puntos y las divisiones, el contador queda en cero |
+
+Las [capturas del informe](05-informe.md) muestran la comparación de cuatro y cinco registros, el ejemplo y el resultado de las pruebas del código.
 
 ## Pruebas pendientes
 
